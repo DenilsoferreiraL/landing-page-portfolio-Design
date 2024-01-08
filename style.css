@@ -339,9 +339,6 @@
  }
 
  @media(width < 1000px) {
-     .nav-links {
-         display: none;
-     }
 
      header {
          grid-template-columns: repeat(1, 1fr);
@@ -365,7 +362,7 @@
  }
 
  @media(width < 700px) {
-     header .image::before {
+     .image::before {
          display: none;
      }
 
@@ -376,7 +373,8 @@
      .princing {
          grid-template-columns: repeat(1, 1fr);
      }
-     footer{
-        grid-template-columns: 1fr 150px;
+
+     footer {
+         grid-template-columns: 1fr 150px;
      }
  }
